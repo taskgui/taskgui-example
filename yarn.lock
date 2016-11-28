@@ -90,12 +90,6 @@ chalk@^1.0.0, chalk@^1.1.1:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-cli-table@~0.3.0:
-  version "0.3.1"
-  resolved "http://r.cnpmjs.org/cli-table/download/cli-table-0.3.1.tgz#f53b05266a8b1a0b934b3d0821e6e2dc5914ae23"
-  dependencies:
-    colors "1.0.3"
-
 clone-stats@^0.0.1:
   version "0.0.1"
   resolved "http://r.cnpmjs.org/clone-stats/download/clone-stats-0.0.1.tgz#b88f94a82cf38b8791d58046ea4029ad88ca99d1"
@@ -107,10 +101,6 @@ clone@^0.2.0:
 clone@^1.0.0, clone@^1.0.2:
   version "1.0.2"
   resolved "http://r.cnpmjs.org/clone/download/clone-1.0.2.tgz#260b7a99ebb1edfe247538175f783243cb19d149"
-
-colors@1.0.3:
-  version "1.0.3"
-  resolved "http://r.cnpmjs.org/colors/download/colors-1.0.3.tgz#0433f44d809680fdeb60ed260f1b0c262e82a40b"
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -371,7 +361,7 @@ glogg@^1.0.0:
   dependencies:
     sparkles "^1.0.0"
 
-graceful-fs@^3.0.0, graceful-fs@~3.0.2:
+graceful-fs@^3.0.0:
   version "3.0.11"
   resolved "http://r.cnpmjs.org/graceful-fs/download/graceful-fs-3.0.11.tgz#7613c778a1afea62f25c630a086d7f3acbbdd818"
   dependencies:
@@ -385,7 +375,7 @@ graceful-fs@~1.2.0:
   version "1.2.3"
   resolved "http://r.cnpmjs.org/graceful-fs/download/graceful-fs-1.2.3.tgz#15a4806a57547cb2d2dbf27f42e89a8c3451b364"
 
-gulp:
+gulp, gulp@^3.9.1:
   version "3.9.1"
   resolved "http://r.cnpmjs.org/gulp/download/gulp-3.9.1.tgz#571ce45928dd40af6514fc4011866016c13845b4"
   dependencies:
@@ -403,15 +393,7 @@ gulp:
     v8flags "^2.0.2"
     vinyl-fs "^0.3.0"
 
-gulp-task-list:
-  version "0.0.1"
-  resolved "http://r.cnpmjs.org/gulp-task-list/download/gulp-task-list-0.0.1.tgz#675aace697ff906db2e51a6fe6416da5bb0b225b"
-  dependencies:
-    cli-table "~0.3.0"
-    graceful-fs "~3.0.2"
-    gulp-util "^3.0.1"
-
-gulp-util@^3.0.0, gulp-util@^3.0.1:
+gulp-util@^3.0.0:
   version "3.0.7"
   resolved "http://r.cnpmjs.org/gulp-util/download/gulp-util-3.0.7.tgz#78925c4b8f8b49005ac01a011c557e6218941cbb"
   dependencies:
@@ -1138,9 +1120,15 @@ supports-color@^2.0.0:
   version "2.0.0"
   resolved "http://r.cnpmjs.org/supports-color/download/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
-tg-plugin-npm-scripts@1.0.3:
-  version "1.0.3"
-  resolved "http://r.cnpmjs.org/tg-plugin-npm-scripts/download/tg-plugin-npm-scripts-1.0.3.tgz#a6bf57a2fa33b1e422bf54f5e2cfdf6f15fa0ec5"
+tg-plugin-gulp:
+  version "1.0.0"
+  resolved "http://r.cnpmjs.org/tg-plugin-gulp/download/tg-plugin-gulp-1.0.0.tgz#b068911288ed53f5fcaf841d30f42a099aac1b86"
+  dependencies:
+    gulp "^3.9.1"
+
+tg-plugin-npm-scripts@1.0.4:
+  version "1.0.4"
+  resolved "http://r.cnpmjs.org/tg-plugin-npm-scripts/download/tg-plugin-npm-scripts-1.0.4.tgz#d9a016c05f40b30c616c72f3a06cf4f3e8cbc674"
 
 through2@^0.6.1:
   version "0.6.5"
