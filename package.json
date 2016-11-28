@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/taskgui/taskgui-example#readme",
   "devDependencies": {
-    "tg-plugin-npm-scripts": "1.0.1"
+    "gulp": "^3.9.1",
+    "tg-plugin-npm-scripts": "1.0.3"
   }
 }
