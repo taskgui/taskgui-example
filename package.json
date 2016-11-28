@@ -20,6 +20,6 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "tg-plugin-gulp": "1.0.2",
-    "tg-plugin-npm-scripts": "1.0.4"
+    "tg-plugin-npm-scripts": "1.0.5"
   }
 }

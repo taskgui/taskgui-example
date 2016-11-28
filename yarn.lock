@@ -1126,9 +1126,9 @@ tg-plugin-gulp@1.0.2:
   dependencies:
     gulp "^3.9.1"
 
-tg-plugin-npm-scripts@1.0.4:
-  version "1.0.4"
-  resolved "http://r.cnpmjs.org/tg-plugin-npm-scripts/download/tg-plugin-npm-scripts-1.0.4.tgz#d9a016c05f40b30c616c72f3a06cf4f3e8cbc674"
+tg-plugin-npm-scripts@1.0.5:
+  version "1.0.5"
+  resolved "http://r.cnpmjs.org/tg-plugin-npm-scripts/download/tg-plugin-npm-scripts-1.0.5.tgz#f72ae376b7ff70dcaab73fd42bd339e2ad69284b"
 
 through2@^0.6.1:
   version "0.6.5"
