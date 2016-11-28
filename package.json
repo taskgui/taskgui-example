@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/taskgui/taskgui-example#readme",
   "devDependencies": {
-    "tg-plugin-npm-scripts": "file:../tg-plugin-npm-scripts"
+    "tg-plugin-npm-scripts": "1.0.1"
   }
 }
