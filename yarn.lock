@@ -1120,9 +1120,9 @@ supports-color@^2.0.0:
   version "2.0.0"
   resolved "http://r.cnpmjs.org/supports-color/download/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
-tg-plugin-gulp:
-  version "1.0.0"
-  resolved "http://r.cnpmjs.org/tg-plugin-gulp/download/tg-plugin-gulp-1.0.0.tgz#b068911288ed53f5fcaf841d30f42a099aac1b86"
+tg-plugin-gulp@1.0.2:
+  version "1.0.2"
+  resolved "http://r.cnpmjs.org/tg-plugin-gulp/download/tg-plugin-gulp-1.0.2.tgz#87c9ff68ea1fe4cd6b139c5f52f5d40c1dd570e8"
   dependencies:
     gulp "^3.9.1"
 
